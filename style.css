@@ -27,14 +27,14 @@ nav img {
   text-align: right;
 }
 .nav-links ul li {
-  list-style: bold;
+  list-style: none;
   display: inline-block;
   padding: 8px 12px;
   position: relative;
 }
 .nav-links ul li a {
   color: aliceblue;
-  text-decoration: solid;
+  text-decoration: none;
   font-size: 14px;
 }
 .nav-links ul li::after {
@@ -44,6 +44,7 @@ nav img {
   background: black;
   display: block;
   margin: auto;
+  transition: 0.5s;
 }
 .nav-links ul li:hover:after {
   width: 100%;
@@ -65,21 +66,44 @@ nav img {
   font-size: 14px;
   color: aliceblue;
 }
+
+nav .fa {
+  display: none;
+}
 @media (max-width: 700px) {
   .text-box h1 {
     font-size: 20px;
+    padding-left: 50px;
   }
-}
-.nav-links ul li {
-  display: block;
-}
-.nav-links {
-  position: absolute;
-  background: black;
-  height: 100vh;
-  width: 200px;
-  top: 0;
-  right: 0;
-  text-align: left;
-  z-index: 2;
+
+  .nav-links ul li {
+    display: block;
+  }
+  .nav-links {
+    position: fixed;
+    padding-top: 55px;
+    width: 45%;
+    height: 80%;
+    background: orange;
+    top: 80px;
+    right: 45%;
+    text-align: center;
+    transition: all 1s;
+    z-index: 2;
+    transition: 3s;
+  }
+  .nav-links ul li {
+    display: block;
+    margin: 13px 0;
+  }
+  .nav-links ul li a {
+    font-size: 20px;
+  }
+  nav .fa {
+    display: block;
+    color: aliceblue;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+  }
 }
