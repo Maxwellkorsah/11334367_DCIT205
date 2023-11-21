@@ -19,8 +19,8 @@
     <section class="header">
       <nav>
         <a href="index.html"><img src="images/logo 1.png" /></a>
-        <div class="nav-links">
-          <i class="fa fa-times"></i>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
           <ul>
             <li><a href="">HOME</a></li>
             <li><a href="">ABOUT</a></li>
@@ -34,7 +34,7 @@
             <li><a href="">CONTACTS</a></li>
           </ul>
         </div>
-        <i class="fa fa-bars"></i>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
       </nav>
       <div class="text-box">
         <h1>COMPUTER SCIENCE DEPARTMENT</h1>
@@ -43,5 +43,64 @@
         >
       </div>
     </section>
+    <!--course-->
+    <section class="course">
+      <h1>Courses We Offer</h1>
+      <div class="row">
+        <div class="course-col">
+          <h3>Short Courses</h3>
+          <p>
+            Our eight week intensive certificate course is open to senior high
+            school graduates,tertiary students,school graduates, workers and the
+            general public.
+          </p>
+        </div>
+
+        <div class="course-col">
+          <h3>Undergraduates Programmes</h3>
+          <p>
+            Open the door to sought-after technology careers bachelor of Science
+            in Computer Science degree.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>MPhil and Msc Programmes.</h3>
+          <p>
+            Embrace world class gruaduate education with unique blend of
+            cutting-edge research and industry experience
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Short Courses</h3>
+          <p>
+            Our PHDs lead the effort to extend the boundaries of knowledge
+            through quality and industry relevant research
+          </p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <!---departmental -->
+      <section class="departmental"></section>
+      <h1>Departmental Events</h1>
+      <p>Programmes,seminars and events organized by the department</p>
+      <div class="row">
+        <div class="departmental">
+          <img src="images/image 1.jpeg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!--JavaScript For Toggle Menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showmenu() {
+        navLinks.style.right = "0";
+      }
+      function hidemenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
   </body>
 </html>
