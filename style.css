@@ -155,19 +155,21 @@ h3 {
   text-align: center;
   padding-top: 50px;
 }
+.departmental-col {
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.departmental-col img {
+  width: 100%;
+  display: block;
+}
 p {
   color: #777;
   font-size: 14px;
   font-weight: 300;
   padding: 10px;
   text-align: center;
-}
-.departmental img {
-  align-items: center;
-  display: flex;
-  text-align: center;
-  box-sizing: border-box;
-  height: 300px;
-  width: 45%;
-  margin: auto;
 }
