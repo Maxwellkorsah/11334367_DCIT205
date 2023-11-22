@@ -5,7 +5,7 @@
   font-family: "Roboto", sans-serif;
 }
 .header {
-  min-height: 100vh;
+  min-height: 70vh;
   width: 100;
   background-image: linear-gradient(rgba(10, 3, 44, 0.7), rgba(30, 4, 1, 0.7)),
     url(images/image\ 13.jpeg);
@@ -84,9 +84,9 @@ nav .fa {
     padding-top: 55px;
     width: 45%;
     height: 80%;
-    background: orange;
+    background: rgb(4, 1, 54);
     top: 80px;
-    right: 45%;
+    right: 20%;
     text-align: center;
     transition: all 1s;
     z-index: 2;
@@ -127,7 +127,7 @@ h1 {
 }
 .course-col {
   flex-basis: 24%;
-  background: #c393be;
+  background: #4d4caf;
   border-radius: 10px;
   margin-bottom: 5%;
   padding: 20px 12px;
@@ -211,7 +211,7 @@ p {
   transition: 0.5s;
 }
 .layer:hover {
-  background: rgba(164, 31, 179, 0.897);
+  background: rgba(42, 84, 138, 0.897);
 }
 .layer h3 {
   width: 100%;
@@ -260,8 +260,8 @@ p {
   position: relative;
 }
 .hero-btn:hover {
-  border: 1px solid #c393be;
-  background: #c393be;
+  border: 1px solid #0d086b;
+  background: #0d086b;
   transition: 1s;
 }
 .cta h1 {
@@ -277,7 +277,7 @@ p {
 
 /*--footer--*/
 footer {
-  background-color: #c393be;
+  background-color: #1d1588;
   color: blue;
   padding-top: 20px;
   padding-right: 0px;
@@ -299,7 +299,7 @@ footer {
 }
 
 h3 {
-  color: #965d06;
+  color: #f6f4f1;
 }
 
 a {
