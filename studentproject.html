@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>UNIVERSITY OF GHANA COMPUTER SCIENCE DEPARTMENT WEBSITE</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,600&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo 1.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">RESOURCES</a></li>
+            <li><a href="">CATALOG</a></li>
+            <li><a href="">EVENTS</a></li>
+            <li><a href="">STUDENT PROJECT</a></li>
+            <li><a href="">STUDENT ENQUIRY</a></li>
+            <li><a href="">STAFF PROFILE</a></li>
+            <li><a href="">CONTACTS</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+
+      <h1>STUDENT PROJECT</h1>
+    </section>
+
+    <!--footer-->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Links</h3>
+          <ul>
+            <li><a href="#">Admissions</a></li>
+            <li><a href="#">Academics</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">About The Department</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <h3><b> and Email</b></h3>
+          <p>Email: dcs@ug.edu.gh</p>
+          <p>
+            Phone: +233 501 382 <br />
+            +233 559 145 698
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <p>Connect To Us On Social Media:</p>
+          <a href="#" target="_blank">Instagram</a>
+          <a href="#" target="_blank">Facebook</a>
+          <a href="#" target="_blank">Twitter</a>
+        </div>
+      </div>
+      <p>&copy; 2023 University. All rights reserved.</p>
+    </footer>
+    <!--JavaScript For Toggle Menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showmenu() {
+        navLinks.style.right = "0";
+      }
+      function hidemenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
