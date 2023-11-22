@@ -140,7 +140,7 @@ h3 {
   margin: 10px 0;
 }
 .course-col:hover {
-  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px 0px #c393be;
 }
 @media (max-width: 700px) {
   .row {
@@ -211,7 +211,7 @@ p {
   transition: 0.5s;
 }
 .layer:hover {
-  background: rgba(102, 2, 2, 0.856);
+  background: rgba(164, 31, 179, 0.897);
 }
 .layer h3 {
   width: 100%;
@@ -240,9 +240,9 @@ p {
 .cta {
   margin: 100px auto;
   width: 80%;
-  height: 8cm;
+  height: 5cm;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(images/image\ 3.jpeg);
+    url(images/image\ 6.jpeg);
   background-position: center;
   background-size: cover;
   border-radius: 10px;
@@ -260,8 +260,8 @@ p {
   position: relative;
 }
 .hero-btn:hover {
-  border: 1px solid #f44336;
-  background: #f44336;
+  border: 1px solid #c393be;
+  background: #c393be;
   transition: 1s;
 }
 .cta h1 {
@@ -273,4 +273,41 @@ p {
   .cta h1 {
     font-size: 24px;
   }
+}
+
+/*--footer--*/
+footer {
+  background-color: #c393be;
+  color: blue;
+  padding-top: 20px;
+  padding-right: 0px;
+  padding-left: 0px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-section {
+  flex: 1;
+  margin: 10px;
+}
+
+h3 {
+  color: #965d06;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0a0a09;
 }
